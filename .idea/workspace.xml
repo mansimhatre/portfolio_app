@@ -23,15 +23,41 @@
         <entry file="file://$PROJECT_DIR$/app/views/investments/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="32" column="34" selection-start="900" selection-end="900" vertical-scroll-proportion="-20.923077">
+              <folding>
+                <marker date="1347785028949" expanded="true" signature="102:352" placeholder="..." />
+                <marker date="1347785028949" expanded="true" signature="226:341" placeholder="..." />
+                <marker date="1347785028949" expanded="true" signature="387:501" placeholder="..." />
+                <marker date="1347785028949" expanded="true" signature="523:595" placeholder="..." />
+                <marker date="1347785028949" expanded="true" signature="617:697" placeholder="..." />
+                <marker date="1347785028949" expanded="true" signature="719:836" placeholder="..." />
+                <marker date="1347785028949" expanded="true" signature="860:889" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="21" selection-start="354" selection-end="354" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="investment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="354" selection-end="354" vertical-scroll-proportion="0.42123893">
+            <state line="20" column="30" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/company.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="60" selection-start="216" selection-end="216" vertical-scroll-proportion="0.23011844">
               <folding />
             </state>
           </provider>
@@ -53,6 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/views/investments/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/investment.rb" />
+        <option value="$PROJECT_DIR$/app/models/company.rb" />
       </list>
     </option>
   </component>
@@ -167,6 +195,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="investments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,7 +389,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="746" extended-state="7" />
+    <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -421,7 +467,15 @@
     <entry file="file://$PROJECT_DIR$/app/views/investments/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="34" selection-start="900" selection-end="900" vertical-scroll-proportion="-20.923077">
-          <folding />
+          <folding>
+            <marker date="1347785028949" expanded="true" signature="102:352" placeholder="..." />
+            <marker date="1347785028949" expanded="true" signature="226:341" placeholder="..." />
+            <marker date="1347785028949" expanded="true" signature="387:501" placeholder="..." />
+            <marker date="1347785028949" expanded="true" signature="523:595" placeholder="..." />
+            <marker date="1347785028949" expanded="true" signature="617:697" placeholder="..." />
+            <marker date="1347785028949" expanded="true" signature="719:836" placeholder="..." />
+            <marker date="1347785028949" expanded="true" signature="860:889" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -434,7 +488,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="354" selection-end="354" vertical-scroll-proportion="0.42123893">
+        <state line="14" column="21" selection-start="354" selection-end="354" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/company.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="60" selection-start="216" selection-end="216" vertical-scroll-proportion="0.23011844">
           <folding />
         </state>
       </provider>
