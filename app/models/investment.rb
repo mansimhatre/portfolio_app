@@ -1,4 +1,16 @@
 class Investment < ActiveRecord::Base
+             belongs_to :portfolio
+             belongs_to :company
+
+             def worth_at_cost
+               worth= quantity* cost
+               return worth
+             end
+
+             def worth_today
+               worth= quantity* company.price
+               return worth
+             end
 
 
   validate :cost_should_be_positive
